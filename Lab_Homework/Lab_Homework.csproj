@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D06C099B-FB90-499A-81C8-D5ACB37318E0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Lab_Homework</RootNamespace>
+    <AssemblyName>Lab_Homework</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Lab_HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab_HomePage.Designer.cs">
+      <DependentUpon>Lab_HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab_Homework02_Loan_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab_Homework02_Loan_1.Designer.cs">
+      <DependentUpon>Lab_Homework02_Loan_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab_Homework02_Loan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab_Homework02_Loan.Designer.cs">
+      <DependentUpon>Lab_Homework02_Loan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab_Homework01_Hello.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab_Homework01_Hello.Designer.cs">
+      <DependentUpon>Lab_Homework01_Hello.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab_Homework03_POS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab_Homework03_POS.Designer.cs">
+      <DependentUpon>Lab_Homework03_POS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab_Homework04_Score.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab_Homework04_Score.Designer.cs">
+      <DependentUpon>Lab_Homework04_Score.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab_Homework08_MyClac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab_Homework08_MyClac.Designer.cs">
+      <DependentUpon>Lab_Homework08_MyClac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab_Homework11_ScreenSaver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab_Homework11_ScreenSaver.Designer.cs">
+      <DependentUpon>Lab_Homework11_ScreenSaver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab_Homework14_PictureViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab_Homework14_PictureViewer.Designer.cs">
+      <DependentUpon>Lab_Homework14_PictureViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab_Homework16_Alarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab_Homework16_Alarm.Designer.cs">
+      <DependentUpon>Lab_Homework16_Alarm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Lab_HomePage.resx">
+      <DependentUpon>Lab_HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab_Homework01_Hello.resx">
+      <DependentUpon>Lab_Homework01_Hello.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab_Homework02_Loan_1.resx">
+      <DependentUpon>Lab_Homework02_Loan_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab_Homework02_Loan.resx">
+      <DependentUpon>Lab_Homework02_Loan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab_Homework03_POS.resx">
+      <DependentUpon>Lab_Homework03_POS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab_Homework04_Score.resx">
+      <DependentUpon>Lab_Homework04_Score.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab_Homework08_MyClac.resx">
+      <DependentUpon>Lab_Homework08_MyClac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab_Homework11_ScreenSaver.resx">
+      <DependentUpon>Lab_Homework11_ScreenSaver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab_Homework14_PictureViewer.resx">
+      <DependentUpon>Lab_Homework14_PictureViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab_Homework16_Alarm.resx">
+      <DependentUpon>Lab_Homework16_Alarm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
