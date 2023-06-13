@@ -1,9 +1,10 @@
 #  C# Homework
 
-主介面\n
+主介面
 ![image](https://github.com/KuanYuJiangTW/Homework/assets/135186052/3e66b4a7-8199-4375-8b55-2d4fdb93df1d)
 
 Hello
+
 ![image](https://github.com/KuanYuJiangTW/Homework/assets/135186052/4b4ed123-eff2-48b9-9c84-76088089d92a)
 
 Loan
