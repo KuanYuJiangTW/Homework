@@ -26,7 +26,7 @@ MyClac
 
 Screen Saver
 
-![image](https://github.com/KuanYuJiangTW/Homework/assets/135186052/9cd728ef-4c0b-4ee6-8f60-689c8cbe98cf)
+![image](https://github.com/KuanYuJiangTW/Homework/assets/135186052/e97bd580-7723-4af3-89e1-063e4024ecac)
 
 Picture Viewer
 
